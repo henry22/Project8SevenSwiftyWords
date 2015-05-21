@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CC4EAF15-B21C-4716-86E2-865F949AEF73</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>33463943DFA0D4676F0EBB77A2BE9689FB77DDDD</key>
+		<string>https://github.com/henry22/Project8SevenSwiftyWords.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project8SevenSwiftyWords.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>33463943DFA0D4676F0EBB77A2BE9689FB77DDDD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/henry22/Project8SevenSwiftyWords.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>33463943DFA0D4676F0EBB77A2BE9689FB77DDDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>33463943DFA0D4676F0EBB77A2BE9689FB77DDDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project8SevenSwiftyWords</string>
+		</dict>
+	</array>
+</dict>
+</plist>
