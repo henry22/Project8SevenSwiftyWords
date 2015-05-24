@@ -13,6 +13,7 @@
 		BA5C58671B0D8C6D00BF48B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5C58661B0D8C6D00BF48B8 /* Images.xcassets */; };
 		BA5C586A1B0D8C6D00BF48B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5C58681B0D8C6D00BF48B8 /* LaunchScreen.xib */; };
 		BA5C58761B0D8C6D00BF48B8 /* Project8SevenSwiftyWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C58751B0D8C6D00BF48B8 /* Project8SevenSwiftyWordsTests.swift */; };
+		BAB7CBFB1B11D82700C3B05F /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAB7CBFA1B11D82700C3B05F /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BA5C586F1B0D8C6D00BF48B8 /* Project8SevenSwiftyWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project8SevenSwiftyWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5C58741B0D8C6D00BF48B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5C58751B0D8C6D00BF48B8 /* Project8SevenSwiftyWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project8SevenSwiftyWordsTests.swift; sourceTree = "<group>"; };
+		BAB7CBFA1B11D82700C3B05F /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,8 @@
 		BA5C585C1B0D8C6D00BF48B8 /* Project8SevenSwiftyWords */ = {
 			isa = PBXGroup;
 			children = (
-				BA5C585F1B0D8C6D00BF48B8 /* AppDelegate.swift */,
 				BA5C58611B0D8C6D00BF48B8 /* ViewController.swift */,
 				BA5C58631B0D8C6D00BF48B8 /* Main.storyboard */,
-				BA5C58661B0D8C6D00BF48B8 /* Images.xcassets */,
-				BA5C58681B0D8C6D00BF48B8 /* LaunchScreen.xib */,
 				BA5C585D1B0D8C6D00BF48B8 /* Supporting Files */,
 			);
 			path = Project8SevenSwiftyWords;
@@ -90,6 +89,10 @@
 		BA5C585D1B0D8C6D00BF48B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA5C585F1B0D8C6D00BF48B8 /* AppDelegate.swift */,
+				BAB7CBFA1B11D82700C3B05F /* level1.txt */,
+				BA5C58661B0D8C6D00BF48B8 /* Images.xcassets */,
+				BA5C58681B0D8C6D00BF48B8 /* LaunchScreen.xib */,
 				BA5C585E1B0D8C6D00BF48B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA5C58651B0D8C6D00BF48B8 /* Main.storyboard in Resources */,
+				BAB7CBFB1B11D82700C3B05F /* level1.txt in Resources */,
 				BA5C586A1B0D8C6D00BF48B8 /* LaunchScreen.xib in Resources */,
 				BA5C58671B0D8C6D00BF48B8 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +415,7 @@
 				BA5C587B1B0D8C6D00BF48B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA5C587C1B0D8C6D00BF48B8 /* Build configuration list for PBXNativeTarget "Project8SevenSwiftyWordsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				BA5C587E1B0D8C6D00BF48B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

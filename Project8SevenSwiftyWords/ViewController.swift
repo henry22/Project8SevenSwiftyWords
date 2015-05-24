@@ -15,6 +15,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var currentAnswer: UITextField!
     
+    var letterButton = [UIButton]()
+    var activatedButton = [UIButton]()
+    var solutions = [String]()
+    
+    var score = 0
+    var level = 1
+    
+    
     @IBAction func submitTapped(sender: AnyObject) {
     }
     
@@ -23,7 +31,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        for subview in view.subviews {
+            if subview.tag == 1001 {
+                let btn = subview as! UIButton
+                letterButton.append(btn)
+                //This is the code version of Ctrl-dragging in a storyboard and it lets us attach a method to the button click
+                btn.addTarget(self, action: "letterTapped:", forControlEvents: .TouchUpInside)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
