@@ -44,6 +44,15 @@ class ViewController: UIViewController {
         loadLevel()
     }
     
+    func letterTapped(btn: UIButton) {
+        //gets the text from the title label of the button that was tapped and appends it to the current text of the answer text field
+        currentAnswer.text = currentAnswer.text + btn.titleLabel!.text!
+        //appends the button to the activatedButtons array
+        activatedButton.append(btn)
+        //finally hides the button
+        btn.hidden = true
+    }
+    
     func loadLevel() {
         //store all the level's clues
         var clueString = ""
