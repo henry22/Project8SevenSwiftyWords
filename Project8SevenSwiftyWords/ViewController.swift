@@ -40,6 +40,8 @@ class ViewController: UIViewController {
                 btn.addTarget(self, action: "letterTapped:", forControlEvents: .TouchUpInside)
             }
         }
+        
+        loadLevel()
     }
     
     func loadLevel() {
@@ -75,6 +77,20 @@ class ViewController: UIViewController {
             }
         }
         //Now configure the buttons and labels
+        
+        //removes any letters specify from the start and end of a string, used with the parameter .whitespaceAndNewlineCharacterSet(), which trims spaces, tabs and line breaks
+        cluesLabel.text = clueString.stringByTrimmingCharactersInSet(.whitespaceAndNewlineCharacterSet())
+        answersLabel.text = solutionString.stringByTrimmingCharactersInSet(.whitespaceAndNewlineCharacterSet())
+        
+        letterBits.shuffle()
+        letterButton.shuffle()
+        
+        if letterBits.count == letterButton.count {
+            //looping from 0 to 19 means we can use the i variable to set a button to a letter group
+            for i in 0 ..< letterBits.count {
+                letterButton[i].setTitle(letterBits[i], forState: .Normal)
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
