@@ -14,6 +14,7 @@
 		BA5C586A1B0D8C6D00BF48B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5C58681B0D8C6D00BF48B8 /* LaunchScreen.xib */; };
 		BA5C58761B0D8C6D00BF48B8 /* Project8SevenSwiftyWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C58751B0D8C6D00BF48B8 /* Project8SevenSwiftyWordsTests.swift */; };
 		BA68C56F1B142D1900AABD81 /* Array+Shuffling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA68C56E1B142D1900AABD81 /* Array+Shuffling.swift */; };
+		BA68C5711B14765A00AABD81 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA68C5701B14765A00AABD81 /* level2.txt */; };
 		BAB7CBFB1B11D82700C3B05F /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAB7CBFA1B11D82700C3B05F /* level1.txt */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		BA5C58741B0D8C6D00BF48B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA5C58751B0D8C6D00BF48B8 /* Project8SevenSwiftyWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project8SevenSwiftyWordsTests.swift; sourceTree = "<group>"; };
 		BA68C56E1B142D1900AABD81 /* Array+Shuffling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffling.swift"; sourceTree = "<group>"; };
+		BA68C5701B14765A00AABD81 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		BAB7CBFA1B11D82700C3B05F /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 				BA5C585F1B0D8C6D00BF48B8 /* AppDelegate.swift */,
 				BA68C56E1B142D1900AABD81 /* Array+Shuffling.swift */,
 				BAB7CBFA1B11D82700C3B05F /* level1.txt */,
+				BA68C5701B14765A00AABD81 /* level2.txt */,
 				BA5C58661B0D8C6D00BF48B8 /* Images.xcassets */,
 				BA5C58681B0D8C6D00BF48B8 /* LaunchScreen.xib */,
 				BA5C585E1B0D8C6D00BF48B8 /* Info.plist */,
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA68C5711B14765A00AABD81 /* level2.txt in Resources */,
 				BA5C58651B0D8C6D00BF48B8 /* Main.storyboard in Resources */,
 				BAB7CBFB1B11D82700C3B05F /* level1.txt in Resources */,
 				BA5C586A1B0D8C6D00BF48B8 /* LaunchScreen.xib in Resources */,

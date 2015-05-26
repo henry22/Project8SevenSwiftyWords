@@ -47,6 +47,18 @@ class ViewController: UIViewController {
         }
     }
     
+    func levelUp(action: UIAlertAction!) {
+        ++level
+        //clears out the existing solutions array
+        solutions.removeAll(keepCapacity: true)
+        
+        loadLevel()
+        
+        for btn in letterButton {
+            btn.hidden = false
+        }
+    }
+    
     @IBAction func clearTapped(sender: AnyObject) {
         //removes the text from the current answer text field
         currentAnswer.text = ""
