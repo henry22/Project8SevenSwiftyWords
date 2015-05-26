@@ -24,6 +24,27 @@ class ViewController: UIViewController {
     
     
     @IBAction func submitTapped(sender: AnyObject) {
+        //searches through an array for an item and, if it finds it, tells its position
+        if let solutionPosition = find(solutions, currentAnswer.text) {
+            activatedButton.removeAll()
+            
+            //split the answer label text up by \n
+            var splitClues = answersLabel.text!.componentsSeparatedByString("\n")
+            //replace the line at the solution position with the solution itself
+            splitClues[solutionPosition] = currentAnswer.text
+            //re-join the clues label back together
+            answersLabel.text = join("\n", splitClues)
+            
+            currentAnswer.text = ""
+            ++score
+            
+            //If we have found all seven words, show a UIAlertController that will prompt the user to go to the next level
+            if score % 7 == 0 {
+                let alertController = UIAlertController(title: "Good job", message: "Are you ready for the next level?", preferredStyle: .Alert)
+                alertController.addAction(UIAlertAction(title: "Go", style: .Default, handler: levelUp))
+                presentViewController(alertController, animated: true, completion: nil)
+            }
+        }
     }
     
     @IBAction func clearTapped(sender: AnyObject) {
