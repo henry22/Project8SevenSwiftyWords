@@ -27,6 +27,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clearTapped(sender: AnyObject) {
+        //removes the text from the current answer text field
+        currentAnswer.text = ""
+        
+        //unhides all the activated buttons
+        for btn in activatedButton {
+            btn.hidden = false
+        }
+        
+        //removes all the items from the activatedButtons array
+        activatedButton.removeAll()
     }
     
     override func viewDidLoad() {
